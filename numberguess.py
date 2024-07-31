@@ -1,10 +1,11 @@
 from random import randint
 class Numberguess:
     
-    randomNum = -1
+    
     def __init__(self,rangefrom,rangeto):
         self.rangefrom = rangefrom
         self.rangeto = rangeto
+        self.randomNum = -1
     
     def generateRandom(self):
         self.randomNum = randint(self.rangefrom,self.rangeto)
