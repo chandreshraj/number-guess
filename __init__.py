@@ -1,4 +1,4 @@
-from Numberguess import Numberguess
+from numberguess import Numberguess
 
 def main():
     print("Let's play Number guessing game today.")
