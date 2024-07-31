@@ -22,6 +22,3 @@ class Numberguess:
         else:
             print("You Found the number.")
             return True
-
-if __name__ == '__main__':
-    ...
